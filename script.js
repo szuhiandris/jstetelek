@@ -117,7 +117,7 @@ function kivalogatas(tomb1,tulajdonsag,tomb2)
         if(tomb1[i] == tulajdonsag)
         {
             tomb2[szamlalo] = tomb1[i];
-            szamlalo = szamlalo + 1
+            szamlalo = szamlalo + 1;
         }
     }
     console.log(`${szamlalo} elem van ebből a számból: ${tulajdonsag}`);
