@@ -91,7 +91,7 @@ function kereses(tomb1,tulajdonsag,sorszam)
     else{
         sorszam = -1;
     }
-    console.log(`${sorszam}. elem ${tomb1[i]}`);
+    console.log(`${sorszam}. elem ${tulajdonsag}`);
 }
 
 kereses(tomb1,tulajdonsag,sorszam);
@@ -105,7 +105,7 @@ function kivalasztas(tomb1,tulajdonsag,sorszam)
         sorszam = i;
     }
     
-    console.log(`${sorszam}. elem: ${tomb1[i]}`);
+    console.log(`${sorszam}. elem: ${tulajdonsag}`);
 }
 kivalasztas(tomb1,tulajdonsag,sorszam);
 
